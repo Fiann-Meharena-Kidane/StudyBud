@@ -7,7 +7,6 @@ from .models import Room
 
 
 
-
 def home(request):
     return render(request, 'base/home.html')
 
